@@ -261,7 +261,7 @@ $(function () {
   // eslint-disable-next-line no-unused-vars
   var salesGraphChart = new Chart(salesGraphChartCanvas, { // lgtm[js/unused-local-variable]
     type: 'line',
-    data: salesGraphChartData,
+    data: salesGraphChartData ,
     options: salesGraphChartOptions
   })
 })
